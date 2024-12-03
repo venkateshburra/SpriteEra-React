@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { BlogList } from "./BlogList";
 import { BlogControls } from "./BlogControls";
-import ImageOne from "../assets/Geetam.png";
-import ImageTow from "../assets/geeta.png";
-import ImageThree from "../assets/kamlesh.png";
+import ImageOne from "../FacultySection/Geetam.png";
+import ImageTow from "../FacultySection/geeta.png";
+import ImageThree from "../FacultySection/kamlesh.png";
 
 export function BlogsData() {
   const [visibleBlogIndex, setVisibleBlogIndex] = useState(0);

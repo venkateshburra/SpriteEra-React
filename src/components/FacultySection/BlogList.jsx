@@ -11,11 +11,7 @@ export function BlogList({ blogs, visibleBlogIndex }) {
             index === visibleBlogIndex ? "block" : "hidden"
           } md:block`}
         >
-          <Blog
-            geetamImg={blog.geetamImg}
-            Name={blog.Name}
-            Para={blog.Para}
-          />
+          <Blog geetamImg={blog.geetamImg} Name={blog.Name} Para={blog.Para} />
         </div>
       ))}
     </div>

@@ -1,11 +1,11 @@
 
 
-import SirImage from "../assets/sir.png";
+import SirImage from "../PrincipalSection/sir.png";
 
 export function Principals() {
   return (
     <div className="mt-5 mx-7 md:mt-36">
-      <div className="flex items-center gap-4 lg:ml-2 xl:ml-16">
+      <div className="flex items-center sm:ml-20 md:ml-0 gap-4 lg:ml-2 xl:ml-16">
         <span className="border-t-8 border-schoolGold px-6 md:px-10 md:border-t-12"></span>
         <h2 className="text-2xl whitespace-nowrap font-medium md:text-3xl lg:text-4xl ">Principal’s Message</h2>
       </div>
