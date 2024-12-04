@@ -45,7 +45,7 @@ export function Gallary() {
   }
 
   return (
-    <div className="mt-44 relative max-w-[1300px] mx-auto">
+    <div id="gallery" className="mt-44 relative max-w-[1300px] mx-auto">
       <h1 className="text-2xl font-medium md:text-4xl md:font-semibold text-center">
         Gallery
       </h1>

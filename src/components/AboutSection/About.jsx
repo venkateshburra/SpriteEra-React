@@ -1,7 +1,7 @@
 
 export function About() {
   return (
-    <div className="text-center mx-7 my-12">
+    <div id="about" className="text-center mx-7 my-12">
       <h1 className="text-2xl  md:text-3xl lg:text-4xl font-medium my-3">
         About Us
       </h1>

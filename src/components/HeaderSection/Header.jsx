@@ -1,29 +1,16 @@
 import React, { useState } from "react";
 import  school_logo from "./logo.png";
 import { FiMenu, FiX } from "react-icons/fi";
+import { HashLink as Link } from 'react-router-hash-link';
 
 const navLinks = [
-  {
-    name: "Home",
-    path: "/",
-  },
-  {
-    name: "About",
-    path: "/about",
-  },
-  {
-    name: "Academics",
-    path: "/academics",
-  },
-  {
-    name: "Gallery",
-    path: "/gallery",
-  },
-  {
-    name: "Contact us",
-    path: "/contact",
-  },
+  { name: "Home", path: "/" },
+  { name: "About", path: "/#about" },
+  { name: "Academics", path: "/#academics" },
+  { name: "Gallery", path: "/#gallery" },
+  { name: "Contact us", path: "/#contact" }, // Updated path
 ];
+
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

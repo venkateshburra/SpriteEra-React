@@ -21,7 +21,7 @@ export function ContactForm() {
         placeholder="Message"
         className="pl-2 text-[15px] md:text-[17px] lg:text-[20px] font-light placeholder-black mt-3 w-full md:w-[283px] lg:w-[383px]  py-[6px] md:py-[14px] pb-12 rounded-md block"
       />
-      <button className="bg-[#ffb400] text-[17px] md:text-[20px] md:px-4 lg:px-6 lg:text-[25px] font-normal px-4 py-[3px] mt-3 rounded-md">
+      <button className="bg-[#ffb400] text-white text-[17px] md:text-[20px] md:px-4 lg:px-6 lg:text-[25px] font-normal px-4 py-[3px] mt-3 rounded-md">
         Send
       </button>
     </div>

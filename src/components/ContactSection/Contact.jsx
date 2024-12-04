@@ -4,7 +4,7 @@ import { MapEmbed } from "./MapEmbed";
 
 export function Contact() {
   return (
-    <section className="mt-28 mx-6 lg:mx-8">
+    <section id="contact" className="mt-28 mx-6 lg:mx-8">
       <h1 className="text-[25px] md:text-[30px] lg:text-[35px] md:font-semibold font-medium text-center">
         Get in Touch with AstraGrove School
       </h1>
